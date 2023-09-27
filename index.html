@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@300&family=Montserrat&family=Yatra+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/main1.css">
+  <link rel="stylesheet" href="main2.css">
+  <title>Interactive rating component</title>
+  <script defer src="JS/index.js"></script>
+</head>
+<body>
+<section id="principal">
+  <img class="star" src="images/icon-star.svg" alt="star"><!-- Rating state start -->
+
+    <div class="how">How did we do?</div>
+
+    <main>
+         Please let us know how we did with your support request. All feedback is appreciated 
+         to help us improve our offering!
+    </main>
+
+    <div class="opciones" >
+      <label class="radio">
+        <input type="radio" name="radio" class="eleccion1" value="1">
+        <span class="name">1</span>
+      </label>
+
+      <label class="radio">
+        <input type="radio" name="radio" class="eleccion2" value="2">
+        <span class="name">2</span>
+      </label>
+          
+      <label class="radio">
+        <input type="radio" name="radio" class="eleccion3" value="3">
+        <span class="name">3</span>
+      </label>
+
+      <label class="radio">
+        <input type="radio" name="radio" class="eleccion4" value="4">
+        <span class="name">4</span>
+      </label>
+
+      <label class="radio">
+        <input type="radio" name="radio"class="eleccion5" value="5">
+        <span class="name">5</span>
+      </label>
+    </div>
+  </div>
+
+  <button class="boton">submit</button>
+
+</section>
+
+<section id="hoja2">
+  <div class="img">
+<img src="/images/illustration-thank-you.svg" alt="gracias"><!-- Rating state end -->
+</div>
+<!-- Thank you state start -->
+<div class="eleccion"><p class="contenido">You selected <small id="resultado"></small> out of 5</p></div>
+<main>
+  <div class="agradecimiento"> Thank you! </div>
+ <div class="msj">
+We appreciate you taking the time to give a rating. If you ever need more support, 
+don’t hesitate to get in touch!
+  </div>
+</main>
+
+  </section> 
+</body>
+</html>
